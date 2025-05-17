@@ -1,7 +1,10 @@
-site_name: Guide d'Alembert
+site_name: d'Alembert
 theme:
   logo: https://lam-ijlra.github.io/ijlra_cheat_sheets/img/logo.jpg
+  favicon: https://lam-ijlra.github.io/ijlra_cheat_sheets/img/logo.jpg
   name: material
+  features:
+    - navigation.indexes
   palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
@@ -33,16 +36,41 @@ extra:
   representatives: [
     {name: "Anaëlle Givaudan", email: "anaelle.givaudan@dalembert.upmc.fr", room: 313},
     {name: "Éléonore Bourdier", email: "eleonore.bourdier@sorbonne-universite.fr", room: 512},
-    {name: "Cyprien Vermelle", email: "cyprien.vermelle@sorbonne-universite.fr", room: 3},
+    {name: "Cyprien Vermelle", email: "cyprien.vermelle@sorbonne-universite.fr", room: 306},
     {name: "Hugo Pauget Ballesteros", email: "hugo.pauget@dalembert.upmc.fr", room: 311}
   ]
+  it_team : {}
 
 markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.arithmatex:
+      generic: true
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
-# nav:
-#   - Guide:
-#     - Before: guide/before.md
-#     - Upon: guide/upon.md
+extra_javascript:
+  - javascripts/katex.js
+  - https://unpkg.com/katex@0/dist/katex.min.js
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+
+extra_css:
+  - https://unpkg.com/katex@0/dist/katex.min.css
+
+nav:
+  - Guide:
+    - guide/index.md
+    - "Before You Arrive": guide/before.md
+    - "Upon Arrival": guide/upon.md
+    - "Accounts": guide/accounts.md
+    - "Email Setup": guide/email.md
+    - "Internet Access": guide/internet.md
+    - "Contacts": guide/contacts.md
+    - "Administrators": guide/administrators.md
+    - "Room Booking": guide/room.md
+    - "Web Services": guide/webservices.md
+    - "Transportation": guide/transports.md
+    - "CROUS (Dining)": guide/crous.md

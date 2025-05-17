@@ -5,10 +5,11 @@ A curated list of webservices.
 ## D'Alembert services
 Managed by the IT team. Use your lab credentials to connect or create a new account when needed.
 
-- [Nextcloud](https://nextcloud.dalembert.upmc.fr) : cloud collaboration platform
-- [Jitsi](https://meeting.dalembert.upmc.fr) : video conferencing platform
-- [Mattermost](https://mm.dalembert.upmc.fr) : team messaging platform
-- [Gitea](https://git.dalembert.upmc.fr) : Git service platform
+- :material-cloud: [Nextcloud](https://nextcloud.dalembert.upmc.fr) : cloud collaboration platform
+- :material-webcam: [Jitsi](https://meeting.dalembert.upmc.fr) : video conferencing platform
+- :material-forum: [Mattermost](https://mm.dalembert.upmc.fr) : team messaging platform
+- :material-code-braces: [Gitea](https://git.dalembert.upmc.fr) : Git service platform
+- :material-calendar: [GRR](http://www.dalembert.upmc.fr/grr/week_all.php) : office booking platform
 
 ## Sorbonne University services
 Managed by Sorbonne University. You can check the status of those services [here](https://meteo.fsi.hosted.lip6.fr/status/default).

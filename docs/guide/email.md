@@ -12,7 +12,7 @@ IMAP server for incoming messages :
 imap server:    imap.dalembert.upmc.fr
 encryption:     SSL/TLS
 port:           993
-login:          lab webmail credentials, without the @dalembert.upmc.fr in the login
+login:          Your lab credentials (jane.doe@dalembert.upmc.fr without domain)
 ```
 
 SMTPS server for outgoing messages :
@@ -20,5 +20,8 @@ SMTPS server for outgoing messages :
 SMTPS server:   smtps.sorbonne-universite.fr
 encryption:     SSL/TLS
 port:           465
-login:          your Sorbonne University credentials
+login:          Your Sorbonne University credentials
 ```
+
+!!! warning "Important"
+    Outgoing mail requires Sorbonne credentials - messages won't send if you use lab credentials

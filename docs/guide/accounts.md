@@ -8,7 +8,7 @@ You will primarily have two types of accounts:
 ## D'Alembert lab accounts
 
 ### Webmail account
-Login of the form `jane.doe@dalembert.upmc.fr`. Allows you to connect to the [lab webmail](https://webmail.dalembert.upmc.fr).
+Login of the form `jane.doe@dalembert.upmc.fr`. Allows you to connect to the [lab webmail](https://webmail.dalembert.upmc.fr). Ask the IT team to get one.
 
 !!! note
     You will also receive an email alias in the format `jane.doe@sorbonne-universite.fr`. This isn't a separate email account - it's simply an alias (forwarder) to your lab email. Any messages sent to this address will be automatically forwarded to your primary lab email address.
