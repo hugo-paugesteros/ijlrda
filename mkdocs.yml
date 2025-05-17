@@ -1,0 +1,48 @@
+site_name: Guide d'Alembert
+theme:
+  logo: https://lam-ijlra.github.io/ijlra_cheat_sheets/img/logo.jpg
+  name: material
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+
+
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+
+plugins:
+    - search
+    - markdownextradata
+
+extra:
+  representatives: [
+    {name: "Anaëlle Givaudan", email: "anaelle.givaudan@dalembert.upmc.fr", room: 313},
+    {name: "Éléonore Bourdier", email: "eleonore.bourdier@sorbonne-universite.fr", room: 512},
+    {name: "Cyprien Vermelle", email: "cyprien.vermelle@sorbonne-universite.fr", room: 3},
+    {name: "Hugo Pauget Ballesteros", email: "hugo.pauget@dalembert.upmc.fr", room: 311}
+  ]
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+# nav:
+#   - Guide:
+#     - Before: guide/before.md
+#     - Upon: guide/upon.md
