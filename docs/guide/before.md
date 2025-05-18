@@ -1,9 +1,9 @@
 # Before you arrive
 
-Remember to fill out [the form](http://inscription.dalembert.upmc.fr/) at least **two weeks before** your arrival. This will allow you to:
+Remember to fill out [the inscription form](http://inscription.dalembert.upmc.fr/) at least **two weeks before** your arrival. This form helps automatically trigger:
 
-1. Have a desk (useful for working)
-2. Get an access badge (useful for entering your office)
-3. Gain access to computing servers, if needed
+*   Office allocation
+*   Access key request
+*   LDAP account creation (if you requested an "account on calculation room" – this is needed for lab intranet access).
 
-Ask your supervisor if you have any question concerning the form
+**Ask your supervisor (N+1) for details needed to complete the form.**

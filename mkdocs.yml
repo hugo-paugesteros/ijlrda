@@ -1,4 +1,4 @@
-site_name: d'Alembert
+site_name:  ∂'Alembert
 theme:
   logo: https://lam-ijlra.github.io/ijlra_cheat_sheets/img/logo.jpg
   favicon: https://lam-ijlra.github.io/ijlra_cheat_sheets/img/logo.jpg
@@ -71,6 +71,9 @@ nav:
     - "Contacts": guide/contacts.md
     - "Administrators": guide/administrators.md
     - "Room Booking": guide/room.md
+    - "SSH": guide/ssh.md
+    - "Printers": guide/printers.md
     - "Web Services": guide/webservices.md
     - "Transportation": guide/transports.md
     - "CROUS (Dining)": guide/crous.md
+    - "Doctoral missions": guide/missions.md
