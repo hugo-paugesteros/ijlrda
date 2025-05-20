@@ -82,3 +82,4 @@ nav:
     - "Transportation": guide/transports.md
     - "CROUS (Dining)": guide/crous.md
     - "Doctoral missions": guide/missions.md
+  - contributing.md
