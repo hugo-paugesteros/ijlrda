@@ -39,6 +39,12 @@ extra:
     {name: "Hugo Pauget Ballesteros", email: "hugo.pauget@dalembert.upmc.fr", room: 311}
   ]
   it_team : {}
+  administrators: [
+    {name: "Maryam Amla", email: "maryam.amla@dalembert.upmc.fr", room: 31, team: "LAM"},
+    {name: "Catherine Dejancourt", email: "dejancourt@dalembert.upmc.fr", room: 31, team: "MISES"},
+    {name: "Olivier Labbey", email: "labbey@dalembert.upmc.fr", room: 31, team: "FCIH"},
+    {name: "Célia Sakho", email: "celia.sakho@sorbonne-universite.fr", room: 31, team: "MPIA & CEPT"},
+  ]
 
 markdown_extensions:
   - admonition

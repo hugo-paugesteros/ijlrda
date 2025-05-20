@@ -6,11 +6,11 @@ We're thrilled to have you join us. This guide is designed to help you get settl
 
 *   **Director:** [Pierre-Yves Lagrée](mailto:)
 *   **Your Administrative Contact (by team - for ongoing support):**
-    *   Olivier Labbey (FCIH)
-    *   Catherine Dejancourt (MISES)
-    *   Sandrine Bandeira (LAM)
-    *   Evelyne Mignon & Célia Sakho (CEPT & MPIA)
+    {% for administrator in administrators %}
+    * [{{administrator.name}}](mailto:{{administrator.email}}) ({{administrator.team}})
+    {% endfor %}
     *   *Find them on the 5th floor, corridor 44-54.*
+
 *   **General Administrative Contact:** [Simona Otarasanu](mailto:simona.otarasanu@upmc.fr), corridor 44-54, office 510
 *   **[IT Department / Technical Team](mailto:info@dalembert.upmc.fr):** 55-65, room 507/508
 *   **[PhD Delegates](mailto:rep-doc@dalembert.upmc.fr):**
