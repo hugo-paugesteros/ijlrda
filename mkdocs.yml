@@ -1,4 +1,4 @@
-site_name:  ∂'Alembert
+site_name: ∂'Alembert
 theme:
   logo: https://lam-ijlra.github.io/ijlra_cheat_sheets/img/logo.jpg
   favicon: https://lam-ijlra.github.io/ijlra_cheat_sheets/img/logo.jpg
@@ -15,7 +15,7 @@ theme:
 
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
-      scheme: default 
+      scheme: default
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
@@ -28,23 +28,58 @@ theme:
         name: Switch to system preference
 
 plugins:
-    - search
-    - markdownextradata
+  - search
+  - markdownextradata
 
 extra:
-  representatives: [
-    {name: "Anaëlle Givaudan", email: "anaelle.givaudan@dalembert.upmc.fr", room: 313},
-    {name: "Éléonore Bourdier", email: "eleonore.bourdier@sorbonne-universite.fr", room: 512},
-    {name: "Cyprien Vermelle", email: "cyprien.vermelle@sorbonne-universite.fr", room: 306},
-    {name: "Hugo Pauget Ballesteros", email: "hugo.pauget@dalembert.upmc.fr", room: 311}
-  ]
-  it_team : {}
-  administrators: [
-    {name: "Maryam Amla", email: "maryam.amla@dalembert.upmc.fr", room: 31, team: "LAM"},
-    {name: "Catherine Dejancourt", email: "dejancourt@dalembert.upmc.fr", room: 31, team: "MISES"},
-    {name: "Olivier Labbey", email: "labbey@dalembert.upmc.fr", room: 31, team: "FCIH"},
-    {name: "Célia Sakho", email: "celia.sakho@sorbonne-universite.fr", room: 31, team: "MPIA & CEPT"},
-  ]
+  representatives:
+    [
+      { name: "Sami Azzaz", email: "sami.azzaz@dalembert.upmc.fr", room: 512 },
+      {
+        name: "Lucie Jean-Labadye",
+        email: "lucie.jean-labadye@dalembert.upmc.fr",
+        room: 311,
+      },
+      {
+        name: "Emanuele Tamburini",
+        email: "emanuele.tamburini@sorbonne-universite.fr",
+        room: 418,
+      },
+      {
+        name: "Elettra Figa-Talamanca",
+        email: "elettra.figa-talamanca@dalembert.upmc.fr",
+        room: 306,
+      },
+      { name: "Zichen Li", email: "zichen.li@dalembert.upmc.fr", room: 418 },
+    ]
+  it_team: {}
+  administrators:
+    [
+      {
+        name: "Nathan Kasongo",
+        email: "nathan.kasongo@dalembert.upmc.fr",
+        room: "44-54 516",
+        team: "MPIA",
+      },
+      {
+        name: "Catherine Dejancourt",
+        email: "dejancourt@dalembert.upmc.fr",
+        room: "44-54 520",
+        team: "MISES",
+      },
+      {
+        name: "Olivier Labbey",
+        email: "labbey@dalembert.upmc.fr",
+        room: "44-54 524",
+        team: "FCIH / CEPT",
+      },
+      {
+        name: "Matanael Davillé",
+        email: "matanael.daville@dalembert.upmc.fr",
+        room: "44-54 516",
+        team: "LAM",
+      },
+    ]
 
 markdown_extensions:
   - admonition
@@ -67,19 +102,19 @@ extra_css:
 
 nav:
   - Guide:
-    - guide/index.md
-    - "Before You Arrive": guide/before.md
-    - "Upon Arrival": guide/upon.md
-    - "Accounts": guide/accounts.md
-    - "Email Setup": guide/email.md
-    - "Internet Access": guide/internet.md
-    - "Contacts": guide/contacts.md
-    - "Administrators": guide/administrators.md
-    - "Room Booking": guide/room.md
-    - "SSH": guide/ssh.md
-    - "Printers": guide/printers.md
-    - "Web Services": guide/webservices.md
-    - "Transportation": guide/transports.md
-    - "CROUS (Dining)": guide/crous.md
-    - "Doctoral missions": guide/missions.md
+      - guide/index.md
+      - "Before You Arrive": guide/before.md
+      - "Upon Arrival": guide/upon.md
+      - "Accounts": guide/accounts.md
+      - "Email Setup": guide/email.md
+      - "Internet Access": guide/internet.md
+      - "Contacts": guide/contacts.md
+      - "Administrators": guide/administrators.md
+      - "Room Booking": guide/room.md
+      - "SSH": guide/ssh.md
+      - "Printers": guide/printers.md
+      - "Web Services": guide/webservices.md
+      - "Transportation": guide/transports.md
+      - "CROUS (Dining)": guide/crous.md
+      - "Doctoral missions": guide/missions.md
   - contributing.md
